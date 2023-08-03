@@ -22,7 +22,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 430px;
-    width: 30%;
+    width: 100%;
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -98,14 +98,14 @@ body {
 
 #emailicon {
     left: 10px;
-    transform: translate(1560%, 230%);
+    transform: translate(1760%, 230%);
     font-size: 18px;
     color: #0088ff;
 }
 
 .fas.fa-lock {
     left: 10px;
-    transform: translate(1645%, 665%);
+    transform: translate(1870%, 665%);
     font-size: 18px;
     color: #0088ff;
 }
