@@ -117,8 +117,37 @@ body {
     color: #0088ff;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 335px) and (max-width: 415px) {
     .form header {
         font-size: 1.5rem;
+    }
+
+    .form input {
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .form .input-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .form .input-container i {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    #emailicon {
+        left: 10px;
+        transform: translate(1360%, 210%);
+        font-size: 18px;
+        color: #0088ff;
+    }
+    
+    .fas.fa-lock {
+        left: 10px;
+        transform: translate(1400%, 605%);
+        font-size: 18px;
+        color: #0088ff;
     }
 }
